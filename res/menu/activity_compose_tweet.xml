@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mTextRemainCount"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/compose_text_remain_hint"
+        android:enabled="false"/>
+    <item
+        android:id="@+id/mTweet"
+        android:orderInCategory="110"
+        android:showAsAction="always"
+        android:title="@string/tweet_upper_case"/>
+
+</menu>

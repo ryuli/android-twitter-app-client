@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/ivComposeProfileImage"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/profile_image"
+        android:src="@drawable/human_gray" />
+
+    <TextView
+        android:id="@+id/tvComposeUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivComposeProfileImage"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ivComposeProfileImage"
+        android:text="@string/user_name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvComposeScreenName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvComposeUserName"
+        android:layout_below="@+id/tvComposeUserName"
+        android:layout_marginTop="5dp"
+        android:text="@string/screen_name"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <EditText
+        android:id="@+id/etComposeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivComposeProfileImage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ivComposeProfileImage"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:gravity="center_vertical|top|left"
+        android:inputType="textMultiLine" 
+        android:hint="@string/compose_hint"
+        android:textSize="12sp"
+        android:padding="0sp"
+        android:maxLength="140">
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

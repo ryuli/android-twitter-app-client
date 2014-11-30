@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Twitter App Client</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="message">Message</string>
+    <string name="ok">OK</string>
+    <string name="network_not_ready">The network is not ready. Please check if your network is connected.</string>
+    <string name="login_hint">Your need to login first.</string>
+    <string name="login_now">Login Now</string>
+    <string name="processing_hint">Please wait...</string>
+    <string name="get_home_timeline_error">Fail to get home timeline, please try again.</string>
+    <string name="profile_image">Profile Name</string>
+    <string name="user_name">User Name</string>
+    <string name="status_text">Status Text</string>
+    <string name="screen_name">ScreenName</string>
+    <string name="reply">Reply</string>
+    <string name="retweet">Retweet</string>
+    <string name="favorite">Favorite</string>
+    <string name="zero">0</string>
+    <string name="create_time">Create Time</string>
+    <string name="compose">Compose</string>
+    <string name="compose_hint">What\'s happening?</string>
+    <string name="tweet_upper_case">TWEET</string>
+    <string name="compose_text_remain_hint">140</string>
+    <string name="media">Media</string>
+
+</resources>
